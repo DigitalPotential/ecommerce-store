@@ -5,6 +5,7 @@ import Container from "@/components/ui/container";
 export const revalidate = 0;
 
 const HomePage = async () => {
+  
   const billboard = await getBillboard("e24c01f8-e51e-47b4-8bdf-6929b2e26078");
 
   return (
